@@ -1,32 +1,26 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# 언리얼 엔진 생성 파일
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
 
-# Precompiled Headers
-*.gch
-*.pch
+# 비주얼 스튜디오 파일
+*.vs/
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# 솔루션 파일
+*.sln
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+UnrealPortfolio.sln
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+UnrealPortfolio.sln
+Build/Windows/FileOpenOrder/CookerOpenOrder.log
+Build/Windows/FileOpenOrder/EditorOpenOrder.log
+UnrealPortfolio.sln
